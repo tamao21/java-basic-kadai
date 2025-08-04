@@ -7,23 +7,24 @@ public class Car_Chapter15 {
 		
 		switch(afterGear){
 		case 1  -> {
-			System.out.println("ギア"+ gear + "から"+ afterGear + "に切り替えました"); speed = 10;
+			System.out.println("ギア"+ gear + "から"+ afterGear + "に切り替えました"); speed = 10; this.gear = afterGear;
 		}
 		case 2  -> {
-			System.out.println("ギア"+ gear + "から"+ afterGear + "に切り替えました"); speed = 20;
+			System.out.println("ギア"+ gear + "から"+ afterGear + "に切り替えました"); speed = 20; this.gear = afterGear;
 		}        
 		case 3  -> {
-			System.out.println("ギア"+ gear + "から"+ afterGear + "に切り替えました"); speed = 30;
+			System.out.println("ギア"+ gear + "から"+ afterGear + "に切り替えました"); speed = 30; this.gear = afterGear;
 		}
 		case 4  -> {
-			System.out.println("ギア"+ gear + "から"+ afterGear + "に切り替えました"); speed = 40;
+			System.out.println("ギア"+ gear + "から"+ afterGear + "に切り替えました"); speed = 40; this.gear = afterGear;
 		}
 		case 5  -> {
-			System.out.println("ギア"+ gear + "から"+ afterGear + "に切り替えました"); speed = 50;
+			System.out.println("ギア"+ gear + "から"+ afterGear + "に切り替えました"); speed = 50; this.gear = afterGear;
 		}
 		default -> {
-			System.out.println("ギア"+ gear + "から"+ afterGear+ "に切り替えました"); speed = 10;
+			System.out.println("ギア"+ gear + "から"+ afterGear+ "に切り替えました"); speed = 10; this.gear = afterGear;
 		}
+		
 		}
 		 
 	}
